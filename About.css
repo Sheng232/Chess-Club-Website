@@ -62,6 +62,29 @@ nav > .nav-list > a:hover{
     margin: 0;
     padding: 0;
 }
+.Our-Goals{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.Our-Goals-Description{
+    width: 50%;
+    height: auto;
+}
+.Our-Goals-Description > h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+}
+.Our-Goals-Description > p{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
 
 #about-image{
     object-fit: cover;
@@ -74,10 +97,15 @@ nav > .nav-list > a:hover{
     height: 100vh;
     background: #f2f2f2; 
 }
-.team > h2{
+.team-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team h2{
     color: #e92629;
     font: 2.1rem Graphik Web, sans-serif;
-    margin-left: 5rem; 
 }
 .team > p{
     margin-left: 5rem; 
