@@ -6,11 +6,12 @@
 }
 body{
     margin: 0;
-    background-color: lightgoldenrodyellow;
+    background: radial-gradient(circle at 0 0, #32d1a7, #2aafa1);;
 }
 main{
     width: 100%;
-    height: 200vh;
+    height: auto;
+    margin-bottom: 20px;
 }
 #navbar{
     position: fixed;
@@ -115,7 +116,7 @@ nav > .nav-list > a:hover{
 #benefit-of-chess{
     width: 100%;
     height: auto;
-    background-color:lightgoldenrodyellow;
+    background: radial-gradient(circle at 0 0, #32d1a7, #2aafa1);;
 }
 #benefit-of-chess img{
     height: auto;
