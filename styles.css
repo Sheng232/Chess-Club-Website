@@ -234,7 +234,7 @@ footer > .social-media{
         gap: 50px;
         width: 100%;
         height: 70%;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 0.3fr 1.4fr 0.3fr;
     }
     .reason-image{
         width: 95%;
