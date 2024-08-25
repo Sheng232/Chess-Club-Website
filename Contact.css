@@ -6,7 +6,7 @@
 }
 body{
     margin: 0;
-    background-color: lightcoral;
+    background-color: rgb(231, 217, 217);
 }
 main{
     width: 100%;
@@ -165,8 +165,8 @@ footer a:hover{
     
 }
 
-
-.form{
+/* form css */
+form{
     background-color: #f2f2f2;
 }
 
@@ -196,7 +196,11 @@ h1, p {
     display: block;
     margin: 0.5rem 0;
   }
-  
+  input, select{
+    -moz-border-radius: 19px;
+    -webkit-border-radius: 19px;
+    border-radius: 19px;
+  }
   input,
   textarea,
   select {
@@ -228,7 +232,8 @@ h1, p {
   .inline{
     display: inline; 
   }
-  
+
+/* form css */
 
 /* media query for phone users, need more update as we go */ 
 @media (max-width: 1000px){
