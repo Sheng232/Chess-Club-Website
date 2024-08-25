@@ -1,0 +1,246 @@
+:root{
+    --height: 15vh;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+}
+main{
+    width: 100%;
+    height: 200vh;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: var(--height);
+    background-color: #861212;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+    margin-right: 10vw;
+    padding: 25px;
+    z-index: 1;
+}
+#navbar > .nav-list > a{
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 2.5rem;
+    color: #f2f2f2;
+}
+nav > .nav-list > a:hover{
+    color: lightblue !important;
+}
+.chess-club-img{
+    margin-top: 5px;
+    width: 5rem;
+    height: 5rem;
+}
+.logo > h1{
+    padding: 10px;
+    font-size: 35px;
+}
+.logo{
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+.empty-space{
+    width: 100%;
+    height: var(--height);
+}
+#hero-image{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+}
+.hero{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(75deg,#F2B69D 15%, #FF7088 55%);
+    display: flex;
+    align-items: center;
+}
+#hero-title{
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    color: rgb(65, 151, 101);
+    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+}
+#hero-description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#hero-description > p{
+    display: inline;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    margin-top: -3rem;
+}
+#join-button{
+    background: rgb(26, 26, 173);
+    width: 15%;
+    height: 50px;
+    margin: 50px auto;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: sans-serif;
+    font-size: 1rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    min-width: 100px;
+    min-height: 50px;
+}
+#join-button:hover{
+    background-color:rgb(119, 150, 177);
+    color: rgb(26, 26, 173);
+    cursor: pointer;
+}
+
+#benefit-of-chess{
+    width: 100%;
+    height: auto;
+    background-color:lightgoldenrodyellow;
+}
+#benefit-of-chess img{
+    height: auto;
+}
+
+#benefit-of-chess > h1{
+    width: 100%;
+    height: 10%;
+    font-size: 3.5em;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ed786a;
+    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+}
+hr{
+    width: 80%;
+}
+#reasons{
+    display: grid;
+    padding-top: 50px;
+    gap: 50px;
+    width: 100%;
+    height: 70%;
+    grid-template-columns: repeat(5, 1fr);
+}
+.reason-image{
+    width: 95%;
+    height: 70%;
+    border: 3px solid rgb(148, 132, 132);
+}
+.image1{
+    grid-column: 2/3;
+}
+.image2{
+    grid-column: 3/4;
+}
+.image3{
+    grid-column: 4/5;
+}
+.center{
+    text-align: center;
+}
+footer{
+    background-color: rgb(179, 168, 168);
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+}
+footer > .logo{
+    grid-column: 2/3;
+}
+footer .useful-link{
+    grid-column: 3/4;
+    color: #f2f2f2;
+    font-weight: 100;
+}
+footer h5{
+    font-size: 30px;
+}
+footer a{
+    grid-column: 3/4;
+    padding: 5px;
+    color: #f0f7f0;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+footer > .social-media{
+    grid-column: 6/7;
+    font-size: 30px;
+    color: #f2f2f2;
+    font-weight: 100;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+.all-rights-reserved{
+    grid-column: 4/6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/* media query for phone users, need more update as we go */ 
+@media (max-width: 1000px){
+    #navbar > .nav-list > a{
+        font-size: 15px;
+        margin-right: 2rem;
+    }
+    .logo > h1{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 750px){
+    #navbar > .nav-list > a{
+        font-size: 15px;
+        margin-right: 1rem;
+    }
+    .logo > h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 630px){
+    #navbar > .nav-list > a{
+        font-size: 10px;
+        margin-right: 0rem;
+    }
+    .logo > h1{
+        font-size: 10px;
+    }
+}
+/* media query for phone users */
+
+/* Fade in CSS Code */
+ .fade-in-text {
+    animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  } 
+/* Fade in CSS Code */
+  
+  
