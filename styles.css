@@ -131,9 +131,7 @@ nav > .nav-list > a:hover{
     color: #ed786a;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 }
-hr{
-    width: 80%;
-}
+
 #reasons{
     display: grid;
     padding-top: 50px;
@@ -167,8 +165,8 @@ footer{
     grid-template-columns: repeat(8, 1fr);
     gap: 20px;
 }
-footer > .logo{
-    grid-column: 2/3;
+footer img{
+    grid-column: 4/6;
 }
 footer .useful-link{
     grid-column: 3/4;
@@ -198,8 +196,7 @@ footer > .social-media{
 .all-rights-reserved{
     grid-column: 4/6;
     text-align: center;
-    display: flex;
-    align-items: center;
+    
 }
 
 /* media query for phone users, need more update as we go */ 
@@ -231,6 +228,29 @@ footer > .social-media{
     .logo > h1{
         font-size: 10px;
     }
+    #reasons{
+        display: grid;
+        padding-top: 50px;
+        gap: 50px;
+        width: 100%;
+        height: 70%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .reason-image{
+        width: 95%;
+        height: 70%;
+        border: 3px solid rgb(148, 132, 132);
+    }
+    .image1{
+        grid-column: 2/3;
+    }
+    .image2{
+        grid-column: 2/3;
+    }
+    .image3{
+        grid-column: 2/3;
+    }
+
 }
 /* media query for phone users */
 
