@@ -86,6 +86,8 @@ nav > .nav-list > a:hover{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     list-style: none;
+    margin-right: -50px;
+    padding: 0;
 }
 .officers > li{
     display: flex;

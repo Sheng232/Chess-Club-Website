@@ -6,7 +6,7 @@
 }
 body{
     margin: 0;
-    background: radial-gradient(circle at 0 0, #32d1a7, #2aafa1);;
+    background: lightskyblue;
 }
 main{
     width: 100%;
@@ -106,6 +106,7 @@ nav > .nav-list > a:hover{
     border-radius: 5px;
     min-width: 100px;
     min-height: 50px;
+    text-decoration: none;
 }
 #join-button:hover{
     background-color:rgb(119, 150, 177);
@@ -116,7 +117,7 @@ nav > .nav-list > a:hover{
 #benefit-of-chess{
     width: 100%;
     height: auto;
-    background: radial-gradient(circle at 0 0, #32d1a7, #2aafa1);;
+    background: lightskyblue;
 }
 #benefit-of-chess img{
     height: auto;
@@ -188,6 +189,9 @@ footer > .social-media{
     font-size: 30px;
     color: #f2f2f2;
     font-weight: 100;
+}
+footer a:hover{
+    color: lightskyblue;
 }
 .flexbox{
     display: flex;
