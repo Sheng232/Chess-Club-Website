@@ -121,6 +121,38 @@ nav > .nav-list > a:hover{
     height: 30rem;
 }
 
+/* media query for phone users, need more update as we go */ 
+@media (max-width: 1000px){
+    #navbar > .nav-list > a{
+        font-size: 15px;
+        margin-right: 2rem;
+    }
+    .logo > h1{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 750px){
+    #navbar > .nav-list > a{
+        font-size: 15px;
+        margin-right: 1rem;
+    }
+    .logo > h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 630px){
+    #navbar > .nav-list > a{
+        font-size: 10px;
+        margin-right: 0rem;
+    }
+    .logo > h1{
+        font-size: 10px;
+    }
+}
+/* media query for phone users */
+
 /* Fade in CSS Code */
 .fade-in-text {
     animation: fadeIn 2s;
