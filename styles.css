@@ -204,33 +204,23 @@ footer a:hover{
 }
 
 /* media query for phone users, need more update as we go */ 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
+    /* We need a hamburger button here */
     #navbar > .nav-list > a{
-        font-size: 15px;
-        margin-right: 2rem;
-    }
-    .logo > h1{
         font-size: 20px;
-    }
-    
-}
-@media (max-width: 750px){
-    #navbar > .nav-list > a{
-        font-size: 15px;
-        margin-right: 1rem;
-    }
-    .logo > h1{
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 630px){
-    #navbar > .nav-list > a{
-        font-size: 10px;
         margin-right: 0rem;
     }
-    .logo > h1{
-        font-size: 10px;
+    .hero{
+        flex-direction: column;
+    }
+    #hero-description{
+        width: auto;
+    }
+    #hero-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 30px;
     }
     #reasons{
         display: grid;
