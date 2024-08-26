@@ -14,12 +14,11 @@
 }
 body{
     margin: 0;
-    background: lightskyblue;
+    background: #861212;
 }
 main{
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 header{
     font-family: sans-serif;
@@ -225,6 +224,7 @@ header{
     text-align: center;
     color: #ed786a;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
 }
 
 #reasons{
