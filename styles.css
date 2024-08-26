@@ -1,7 +1,15 @@
 :root{
     --height: 15vh;
+    --bar-width: 60px;
+    --bar-height: 8px;
+    --hamburger-gap: 6px;
+    --foreground: #861212;;
+    --background: white;
+    --hamburger-margin: 8px;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
-*{
+*, *::after, *::before{
     box-sizing: border-box;
 }
 body{
@@ -13,31 +21,108 @@ main{
     height: auto;
     margin-bottom: 20px;
 }
-#navbar{
-    position: fixed;
-    width: 100%;
-    height: var(--height);
-    background-color: #861212;
+/* Navbar */
+/* Hamburger */
+.hamburger-menu:has(input:focus-visible)::before,
+.hamburger-menu:has(input:focus-visible)::after,
+.hamburger-menu input:focus-visible{
+    border: 1px solid var(--background);
+    box-shadow: 0 0 0 1px var(--foreground);
+}
+.hamburger-menu{
+    --foreground: white;
+    --background: #333;
+}
+.hamburger-menu:has(input:checked){
+    --foreground: white;
+    --background: #333;
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input{
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--foreground);
+    border-radius: 9999px;
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), width var(--animation-timing), 
+    rotate var(--animation-timing), translate var(--animation-timing)
+    , background-color var(--animation-timing);
+
+}
+.hamburger-menu input{
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+.hamburger-menu{
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+    position: fixed;
+    top: var(--hamburger-margin);
+    right: var(--hamburger-margin);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.hamburger-menu:has(input:checked)::before{
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / -2);
+}
+.hamburger-menu:has(input:checked)::after{
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / 2);
+}
+.hamburger-menu input:checked{
+    opacity: 0;
+    width: 0;
+}
+.sidebar{
+    position: fixed;
     font-weight: bold;
+    transition: translate var(--animation-timing);
+    translate: 0%;
+    background-color: var(--foreground);
+    color: var(--background);
+    height: var(--height);
+    width: 100vw;
+}
+.sidebar div{
+    height: 100%;
+}
+.sidebar nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    height: 100%;
+}
+.sidebar nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar a{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-right: 5rem;
+    display: flex;
     align-items: center;
     color: white;
-    margin-right: 10vw;
-    padding: 25px;
-    z-index: 1;
-}
-#navbar > .nav-list > a{
-    height: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
     text-decoration: none;
-    font-size: 25px;
-    margin-right: 2.5rem;
-    color: #f2f2f2;
 }
-nav > .nav-list > a:hover{
+
+.hamburger-menu:has(input:checked) + .sidebar{
+    translate: -100%;
+}
+.sidebar a:hover{
     color: lightblue !important;
 }
 .chess-club-img{
@@ -61,6 +146,10 @@ nav > .nav-list > a:hover{
     width: 100%;
     height: var(--height);
 }
+
+/* Navbar */
+
+
 #hero-image{
     width: 60%;
     height: 100%;
@@ -247,8 +336,29 @@ footer a:hover{
     .image3{
         grid-column: 2/3;
     }
-
+    .sidebar {
+        width: 250px;
+        height: 100%; 
+        overflow-y: auto; 
+    }
+    .sidebar nav {
+        flex-direction: column;
+    }
+    .sidebar div {
+        font-size: 2rem; 
+        padding: 10px 15px; 
+    }
+    .sidebar nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .hamburger-menu:has(input:checked){
+        --foreground: #333;
+        --background: white;
+    }
 }
+
+
 /* media query for phone users */
 
 /* Fade in CSS Code */
