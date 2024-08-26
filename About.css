@@ -211,6 +211,7 @@ main{
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
+    align-items: center;
 }
 .officers > li > h4{
     padding: 2px;
