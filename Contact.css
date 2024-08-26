@@ -16,6 +16,9 @@ body{
     margin: 0;
     background: lightskyblue;
 }
+header{
+    font-family: sans-serif;
+}
 main{
     width: 100%;
     height: auto;
@@ -262,7 +265,7 @@ form{
     background-color: #f2f2f2;
 }
 
-h1, p {
+p {
     margin: 1em auto;
     text-align: center;
   }

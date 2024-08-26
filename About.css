@@ -16,6 +16,9 @@ body{
     margin: 0;
     background-color: #f2f2f2;
 }
+header{
+    font-family: sans-serif;
+}
 main{
     width: 100%;
     height: auto;

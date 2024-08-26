@@ -21,6 +21,9 @@ main{
     height: auto;
     margin-bottom: 20px;
 }
+header{
+    font-family: sans-serif;
+}
 /* Navbar */
 /* Hamburger */
 .hamburger-menu:has(input:focus-visible)::before,
