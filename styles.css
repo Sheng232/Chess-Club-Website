@@ -141,6 +141,7 @@ main{
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
+    padding-left: 10px;
 }
 .empty-space{
     width: 100%;

@@ -9,18 +9,23 @@
 			</head>
 			<body>
 			<header>
-				<nav id="navbar">
-					<a class="logo left" href="index.html">
-						<img class = "chess-club-img" src = "Chess_Club_Logo.png"/> <h1>Lowell Chess Club</h1>
-					</a>
-					<div class="nav-list right">
-					<a href="index.html">Home</a>
-                    <a href="About.html">About Us</a>
-                    <a href="Upcoming_Events.html">Upcoming Events</a>
-					<a href="Gallery.html">Gallery</a>
-					<a href="Contact.html">Contact</a>
-					</div>
-				</nav>
+				<label class="hamburger-menu">
+					<input type = "checkbox">
+				</label>
+				<aside class="sidebar">
+					<nav>
+						<div class="logo left">
+							<img class = "chess-club-img" src = "Chess_Club_Logo.png"/> <h1>Lowell Chess Club</h1>
+						</div>
+							<ul class="pages">
+								<a href="index.html">Home</a>
+                    			<a href="About.html">About Us</a>
+                    			<a href="Upcoming-Events.html">Upcoming Events</a>
+								<a href="Gallery.html">Gallery</a>
+								<a href="Contact.html">Contact</a>
+							</ul>
+					</nav>
+				</aside>
 				<div class="empty-space"></div>
 			</header>
 			<main>
@@ -34,12 +39,12 @@
     			<p>Please fill out this form with the required information</p>
 				<!-- WE NEED A BACKEND TO STORE DATA !IMPORTANT -->	
       			<fieldset>
-        		<label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-        		<label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        		<label for="first-name">Enter Your First Name: <input class="input" id="first-name" name="first-name" type="text" required /></label>
+        		<label for="last-name">Enter Your Last Name: <input class="input" id="last-name" name="last-name" type="text" required /></label>
       		</fieldset>
       		<fieldset>
-        	<label for="Rating">Enter Your Chess Rating: <input id="Chess Rating" type="text" name="text" /></label>
-        	<label for="grade">Input your grade: <input id="grade" type="number" name="grade" min="9" max="12" /></label>
+        	<label for="Rating">Enter Your Chess Rating: <input class="input" id="Chess Rating" type="text" name="text" /></label>
+        	<label for="grade">Input your grade: <input class="input" id="grade" type="number" name="grade" min="9" max="12" /></label>
         	<label for="referrer">How did you hear about us?
           	<select id="referrer" name="referrer">
             	<option value="">select one</option>
@@ -54,7 +59,7 @@
           		<textarea id="bio" name="bio" rows="3" cols="30"></textarea>
         		</label>
       		</fieldset>
-      		<input type="submit" value="Submit" />
+      		<input class="input" type="submit" value="Submit" />
     			</form>
 						</main>
 							</body>

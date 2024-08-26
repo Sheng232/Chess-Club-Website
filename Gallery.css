@@ -14,11 +14,12 @@
 }
 body{
     margin: 0;
-    background-color: #f2f2f2;
+    background: lightskyblue;
 }
 main{
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 /* Navbar */
 /* Hamburger */
@@ -69,7 +70,6 @@ main{
     right: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
-    
 }
 
 .hamburger-menu:has(input:checked)::before{
@@ -149,96 +149,11 @@ main{
 }
 
 /* Navbar */
-.Our-Goals{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-}
-.Our-Goals-Description{
-    width: 50%;
-    height: auto;
-}
-.Our-Goals-Description > h3{
-    text-align: center;
-    font-size: 30px;
-    font-family: sans-serif;
-    color: gray;
-}
-.Our-Goals-Description > p{
-    letter-spacing: 2px;
-    font-size: 20px;
-}
 
 
-#about-image{
-    object-fit: cover;
-    width: 100%;
-    height: 20vh;
-    margin: 0;
-}
-.team{
-    width: 100%;
-    height: auto;
-    background: #f2f2f2; 
-}
-.team-text{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
-.team h2{
-    font-size: 30px;
-    font-family: sans-serif;
-    color: gray;
-}
-.team > p{
-    margin-left: 5rem; 
-}
-.officers{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    list-style: none;
-    margin-right: -50px;
-    padding: 0;
-}
-.officers > li{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-}
-.officers > li > h4{
-    padding: 2px;
-    margin: 0;
-}
-.officers > li > p{
-    padding: 2px;
-    margin: 0;
-}
-#Prothro{
-    grid-column: 2/3;
-}
-#Sheng{
-    grid-column: 3/4;
-}
-#Preston{
-    grid-column: 2/3;
-}
-#Tony{
-    grid-column: 3/4;
-}
-#Alvin{
-    grid-column: 2/3;
-}
 
-.place-holder-img{
-    width: 20rem;
-    height: 30rem;
-}
-
+/* footer Code */
 footer{
     background-color: rgb(179, 168, 168);
     width: 100%;
@@ -283,6 +198,7 @@ footer a:hover{
     text-align: center;
     
 }
+/* footer Code */
 
 /* media query for phone users, need more update as we go */ 
 @media (max-width: 1050px){
@@ -349,8 +265,9 @@ footer a:hover{
 
 
 /* media query for phone users */
+
 /* Fade in CSS Code */
-.fade-in-text {
+ .fade-in-text {
     animation: fadeIn 2s;
   }
   @keyframes fadeIn {
@@ -358,3 +275,5 @@ footer a:hover{
     100% { opacity: 1; }
   } 
 /* Fade in CSS Code */
+  
+  
