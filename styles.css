@@ -302,7 +302,6 @@ footer a:hover{
 
 /* media query for phone users, need more update as we go */ 
 @media (max-width: 1050px){
-    /* We need a hamburger button here */
     #navbar > .nav-list > a{
         font-size: 20px;
         margin-right: 0rem;
