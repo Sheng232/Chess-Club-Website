@@ -202,7 +202,6 @@ main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     list-style: none;
-    margin-right: -50px;
     padding: 0;
 }
 .officers > li{
@@ -238,7 +237,7 @@ main{
     width: 20rem;
     height: 30rem;
 }
-
+/* footer */
 footer{
     background-color: rgb(179, 168, 168);
     width: 100%;
@@ -283,6 +282,7 @@ footer a:hover{
     text-align: center;
     
 }
+/* footer */
 
 /* media query for phone users, need more update as we go */ 
 @media (max-width: 1050px){

@@ -95,6 +95,7 @@ main{
     color: var(--background);
     height: var(--height);
     width: 100vw;
+    z-index: 1;
 }
 .sidebar div{
     height: 100%;
