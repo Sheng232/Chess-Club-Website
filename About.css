@@ -14,7 +14,7 @@
 }
 body{
     margin: 0;
-    background-color: #f2f2f2;
+    background-color:rgb(177, 197, 214);
 }
 header{
     font-family: sans-serif;
@@ -317,6 +317,10 @@ footer a:hover{
     .hamburger-menu:has(input:checked){
         --foreground: #333;
         --background: white;
+    }
+    .empty-space{
+        width:0;
+        height: 0;
     }
 }
 

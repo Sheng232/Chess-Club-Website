@@ -263,6 +263,10 @@ footer a:hover{
         --foreground: #333;
         --background: white;
     }
+    .empty-space{
+        width:0;
+        height: 0;
+    }
 }
 
 
