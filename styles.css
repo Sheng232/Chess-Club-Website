@@ -214,6 +214,7 @@ header{
 }
 
 #benefit-of-chess > h1{
+    font-family: sans-serif;
     width: 100%;
     height: 10%;
     font-size: 3.5em;

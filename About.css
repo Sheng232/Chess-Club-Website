@@ -333,6 +333,9 @@ footer a:hover{
         width:0;
         height: 0;
     }
+    .chess-room-img{
+        width: 350px;
+    }
     
 }
 
