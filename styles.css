@@ -201,7 +201,6 @@ header{
 }
 #join-button:hover{
     background-color:rgb(119, 150, 177);
-    color: rgb(26, 26, 173);
     cursor: pointer;
 }
 
