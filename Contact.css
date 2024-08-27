@@ -274,6 +274,7 @@ p {
     width: 70vw;
     margin: 0 auto;
     padding-bottom: 2em;
+    border-radius: 10px;
   }
   
   fieldset {
