@@ -14,7 +14,6 @@
 }
 body{
     margin: 0;
-    background: #861212;
 }
 main{
     width: 100%;
@@ -36,7 +35,7 @@ header{
     --background: #333;
 }
 .hamburger-menu:has(input:checked){
-    --foreground: white;
+    --foreground: #333;
     --background: #333;
 }
 
@@ -155,7 +154,7 @@ header{
 
 
 #hero-image{
-    width: 60%;
+    width: 850px;
     height: 100%;
     object-fit: cover;
     padding: 30px;
@@ -163,7 +162,6 @@ header{
 .hero{
     width: 100%;
     height: auto;
-    background: linear-gradient(75deg,#F2B69D 15%, #FF7088 55%);
     display: flex;
     align-items: center;
 }
@@ -171,31 +169,31 @@ header{
     padding: 30px;
     font-family: sans-serif;
     font-size: 4.5rem;
-    color: rgb(65, 151, 101);
+    color: #ed786a;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    font-weight: normal;
 }
 #hero-description{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    color: white;
 }
 #hero-description > p{
     display: inline;
+    width: 80%;
     padding-left: 40px;
     font-size: 1.5rem;
     margin-top: -3rem;
 }
 #join-button{
-    background: rgb(26, 26, 173);
-    width: 15%;
+    background: lightcoral;
+    width: 25%;
     height: 50px;
     margin: 50px auto;
     text-align: center;
     color: #f2f2f2;
     font-family: sans-serif;
     font-size: 1rem;
-    border: 3px solid black;
     border-radius: 5px;
     min-width: 100px;
     min-height: 50px;
@@ -225,6 +223,7 @@ header{
     color: #ed786a;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
     margin: 0;
+    font-weight: normal;
 }
 
 #reasons{
@@ -355,6 +354,10 @@ footer a:hover{
     .sidebar nav ul{
         display: flex;
         flex-direction: column;
+    }
+    .hamburger-menu{
+        --foreground: #333;
+        --background: #333;
     }
     .hamburger-menu:has(input:checked){
         --foreground: #333;

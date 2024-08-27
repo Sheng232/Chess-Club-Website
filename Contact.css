@@ -395,6 +395,10 @@ p {
     .Contact-title h1{
         margin: 0;
     }
+    form{
+        margin: 0 auto;
+        min-width: 400px;
+    }
 }
 
 

@@ -159,7 +159,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .Our-Goals-Description{
     width: 50%;
@@ -238,7 +238,13 @@ main{
 #Alvin{
     grid-column: 2/3;
 }
+.chess-room-img{
+    padding-top: 20px;
+    width: 500px;
+    object-fit: cover;
+    height: 300px;
 
+}
 .place-holder-img{
     width: 15rem;
     height: 20rem;
