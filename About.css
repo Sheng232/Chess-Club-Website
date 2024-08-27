@@ -161,6 +161,30 @@ main{
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
+.Our-Story{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.Our-Story-Description{
+    width: 50%;
+    height: auto;
+}
+.Our-Story-Description h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: gray;
+}
+.Our-Story-Description > p{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
 .Our-Goals-Description{
     width: 50%;
     height: auto;
@@ -335,6 +359,9 @@ footer a:hover{
     }
     .chess-room-img{
         width: 350px;
+    }
+    .Our-Story{
+        flex-direction: column-reverse;
     }
     
 }
