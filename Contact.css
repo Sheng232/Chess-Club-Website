@@ -36,7 +36,7 @@ main{
     --background: #333;
 }
 .hamburger-menu:has(input:checked){
-    --foreground: white;
+    --foreground: #333;
     --background: #333;
 }
 
@@ -376,6 +376,10 @@ p {
         flex-direction: column;
     }
     .hamburger-menu:has(input:checked){
+        --foreground: #333;
+        --background: white;
+    }
+    .hamburger-menu{
         --foreground: #333;
         --background: white;
     }
