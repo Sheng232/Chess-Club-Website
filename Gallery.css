@@ -161,10 +161,16 @@ main{
 }
 .event h3{
     font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.event-description{
+    width: 50%;
 }
 .event p{
+    width: 100%;
     letter-spacing: 4px;
     font-size: 1.2rem;
+    margin-left: 2rem;
 }
 .slider{
     position: relative;
