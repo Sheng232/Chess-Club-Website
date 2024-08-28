@@ -171,6 +171,7 @@ header{
     font-size: 4.5rem;
     color: #ed786a;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    font-weight: normal;
 }
 #hero-description{
     width: 50%;
