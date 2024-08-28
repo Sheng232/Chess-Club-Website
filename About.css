@@ -14,7 +14,6 @@
 }
 body{
     margin: 0;
-    background-color:rgb(177, 197, 214);
 }
 header{
     font-family: sans-serif;
@@ -160,6 +159,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    font-family: sans-serif;
 }
 .Our-Story{
     width: 100%;
@@ -169,6 +169,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 20px;
+    font-family: sans-serif;
 }
 .Our-Story-Description{
     width: 50%;
