@@ -152,8 +152,47 @@ main{
 
 /* Navbar */
 
+/* Main */
 
-
+.slider{
+    position: relative;
+    width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+/* Main */
 
 /* footer Code */
 footer{
