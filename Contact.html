@@ -43,12 +43,12 @@
     			<p>Please fill out this form with the required information</p>
 				<!-- WE NEED A BACKEND TO STORE DATA !IMPORTANT -->	
       			<fieldset>
-        		<label for="first-name">Enter Your First Name: <input class="input" id="first-name" name="first-name" type="text" required /></label>
-        		<label for="last-name">Enter Your Last Name: <input class="input" id="last-name" name="last-name" type="text" required /></label>
+        		<label for="first-name">First Name: <input class="input" id="first-name" name="first-name" type="text" required /></label>
+        		<label for="last-name">Last Name: <input class="input" id="last-name" name="last-name" type="text" required /></label>
       		</fieldset>
       		<fieldset>
-        	<label for="Rating">Enter Your Chess Rating: <input class="input" id="Chess Rating" type="text" name="text" /></label>
-        	<label for="grade">Input your grade: <input class="input" id="grade" type="number" name="grade" min="9" max="12" /></label>
+        	<label for="Rating">Chess Rating(Chess.com, Lichess, FIDE, USCF, or 0 if you're unrated): <input class="input" id="Chess Rating" type="text" name="text" /></label>
+        	<label for="grade">Grade: <input class="input" id="grade" type="number" name="grade" min="9" max="12" /></label>
         	<label for="referrer">How did you hear about us?
           	<select id="referrer" name="referrer">
             	<option value="">select one</option>
@@ -60,7 +60,7 @@
           	</select>
         	</label>
         	<label for="bio">Any Questions for Us?:
-          		<textarea id="bio" name="bio" rows="3" cols="30"></textarea>
+          		<textarea id="bio" name="bio" rows="3" cols="40"></textarea>
         		</label>
       		</fieldset>
       		<input class="input" type="submit" value="Submit" />
