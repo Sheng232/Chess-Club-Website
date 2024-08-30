@@ -364,6 +364,11 @@ footer a:hover{
     .Our-Story{
         flex-direction: column-reverse;
     }
+
+    .hamburger-menu{
+        --foreground: #333;
+        --background: #333;
+    }
     
     
 }

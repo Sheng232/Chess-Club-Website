@@ -250,7 +250,7 @@ footer a:hover{
 }
 
 /* form css */
-form{
+.form{
     background-color: #f2f2f2;
 }
 
@@ -259,8 +259,9 @@ p {
     text-align: center;
   }
   
-  form {
-    width: 70vw;
+.form {
+    display: flex;
+    align-items: center;
     margin: 0 auto;
     padding-bottom: 2em;
     border-radius: 10px;
@@ -397,8 +398,11 @@ p {
     }
 }
 
-
-/* media query for phone users */
+@media (max-width: 850px){
+    .form{
+        width: 100%;
+    }
+}
 /* media query for phone users */
 
 /* Fade in CSS Code */
