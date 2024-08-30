@@ -194,6 +194,47 @@ main{
     font-size: 20px;
 }
 /* Main Code */
+
+
+/* Tri-Weekly-Blitz styling */
+.return-button{
+    margin: 30px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.return-button:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+.tournament{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tournament-description{
+    width: 80%;
+}
+.Tournament-Format{
+    display: flex;
+    flex-direction: column;
+}
+.Tournament-Format > span{
+    padding: 5px;
+}
+.tournament-title{
+    display: flex;
+    flex-direction: column;
+}
+/* Tri-Weekly-Blitz styling */
+
+
 /* footer Code */
 footer{
     background-color: rgb(179, 168, 168);
@@ -294,6 +335,9 @@ footer a:hover{
     }
     #second-event{
         width: 100%;
+    }
+    .tournament-title{
+        text-align: center;
     }
 }
 
