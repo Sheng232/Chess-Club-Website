@@ -172,7 +172,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 20px;
+    margin-bottom: 3rem;
     font-family: sans-serif;
 }
 .Our-Story-Description{
