@@ -390,6 +390,9 @@ footer a:hover{
     .Our-Story-Description{
         width: 80%;
     }
+    .officers{
+        text-align: center;
+    }
 }
 
 @media (max-width: 650px){

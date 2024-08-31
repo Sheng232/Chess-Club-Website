@@ -175,6 +175,7 @@ header{
     font-size: 3.5rem;
     /* color: #ed786a; */
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    margin-left: 3rem;
 }
 #hero-description{
     display: flex;
@@ -184,9 +185,10 @@ header{
 #hero-description > p{
     display: inline;
     width: 90%;
-    padding-left: 20px;
+    margin-left: 3rem;
     font-size: 1.3rem;
     margin-top: -3rem;
+    line-height: 1.5;
 }
 #join-button{
     background: lightcoral;
