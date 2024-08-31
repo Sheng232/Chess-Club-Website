@@ -207,6 +207,9 @@ img.displaySlide{
 .next{
     right: 0;
 }
+.sidebar span{
+    border-bottom: 2px solid white;
+}
 
 @keyframes fade {
     from {opacity: .5}

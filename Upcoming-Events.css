@@ -193,6 +193,9 @@ main{
     align-items: center;
     font-size: 20px;
 }
+.sidebar span{
+    border-bottom: 2px solid white;
+}
 /* Main Code */
 
 

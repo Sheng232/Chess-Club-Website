@@ -151,6 +151,9 @@ main{
     width: 100%;
     height: var(--height);
 }
+.sidebar span{
+    border-bottom: 2px solid white;
+}
 
 /* Navbar */
 .Our-Goals{

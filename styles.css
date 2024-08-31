@@ -121,6 +121,9 @@ header{
     color: white;
     text-decoration: none;
 }
+.sidebar span{
+    border-bottom: 2px solid white;
+}
 
 .hamburger-menu:has(input:checked) + .sidebar{
     translate: -100%;
