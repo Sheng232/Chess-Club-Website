@@ -233,11 +233,15 @@ main{
 .tournament-description{
     width: 80%;
 }
+.Registration{
+    display: flex;
+    flex-direction: column;
+}
 .Tournament-Format{
     display: flex;
     flex-direction: column;
 }
-.Tournament-Format > span{
+.tournament span{
     padding: 5px;
 }
 .tournament-title{
