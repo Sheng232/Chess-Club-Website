@@ -160,9 +160,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    margin: 30px 0 30px 0;
 }
 .Contact-description p{
     font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 .Room-205{
     width: 300px;
@@ -188,7 +194,7 @@ main{
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 }
 .Contact-title p{
-    width: 50%;
+    width: 80%;
     color: black !important;
 }
 #hero-description{
@@ -203,6 +209,12 @@ main{
     font-size: 1.5rem;
     margin-top: -3rem;
 }
+p {
+    margin: 1em auto;
+  }
+  .contact-description{
+    text-align: center;
+  }
 
 .center{
     text-align: center;
@@ -265,13 +277,7 @@ footer a:hover{
 /* form css */
 .form{
     background-color: #f2f2f2;
-}
-
-p {
-    margin: 1em auto;
-    text-align: center;
-  }
-  
+} 
 .form {
     display: flex;
     align-items: center;
@@ -417,14 +423,10 @@ p {
     }
 }
 /* media query for phone users */
-
-/* Fade in CSS Code */
- .fade-in-text {
+.fade-in-text {
     animation: fadeIn 2s;
   }
-  .contact-description{
-    text-align: center;
-  }
+/* Fade in CSS Code */
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }

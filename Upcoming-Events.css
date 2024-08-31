@@ -344,9 +344,11 @@ footer a:hover{
     }
     #first-event{
         width: 100%;
+        padding-right: 10px;
     }
     #second-event{
         width: 100%;
+        padding-right: 10px;
     }
     .tournament-title{
         text-align: center;

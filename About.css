@@ -381,8 +381,15 @@ footer a:hover{
         --foreground: #333;
         --background: #333;
     }
-    
-    
+    .Our-Goals-Description{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .Our-Story-Description{
+        width: 80%;
+    }
 }
 
 @media (max-width: 650px){
