@@ -365,7 +365,6 @@ footer a:hover{
     .Our-Story{
         flex-direction: column-reverse;
     }
-
     .hamburger-menu{
         --foreground: #333;
         --background: #333;
@@ -388,6 +387,9 @@ footer a:hover{
         grid-column: 2/4;
     }
     #Alvin{
+        grid-column: 2/4;
+    }
+    #Fabian{
         grid-column: 2/4;
     }
 }
