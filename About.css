@@ -278,6 +278,13 @@ main{
     width: 15rem;
     height: 20rem;
 }
+.overlay-img{
+    position: absolute;
+    opacity: 0;
+    width: 15rem;
+    height: 20rem;
+    transition: .3s ease;
+}
 /* footer */
 footer{
     background-color: rgb(179, 168, 168);
@@ -426,4 +433,8 @@ footer a:hover{
     0% { opacity: 0; }
     100% { opacity: 1; }
   } 
+
+  .overlay-img:hover{
+    opacity: 1;
+  }
 /* Fade in CSS Code */
