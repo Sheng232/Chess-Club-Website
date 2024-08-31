@@ -184,7 +184,7 @@ main{
     font-family: sans-serif;
     text-align: center;
     font-size: 4rem;
-    color: lightcoral;
+    /* color: lightcoral; */
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 }
 .Contact-title p{
