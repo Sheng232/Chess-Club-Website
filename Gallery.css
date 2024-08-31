@@ -210,6 +210,15 @@ img.displaySlide{
 .sidebar span{
     border-bottom: 2px solid white;
 }
+.fa-github{
+    color: black;
+}
+.fa-instagram{
+    color: lightcoral;
+}
+.fa-discord{
+    color: rgb(90, 90, 187);
+}
 
 @keyframes fade {
     from {opacity: .5}

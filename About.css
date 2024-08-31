@@ -323,6 +323,15 @@ footer a:hover{
     text-align: center;
     
 }
+.fa-github{
+    color: black;
+}
+.fa-instagram{
+    color: lightcoral;
+}
+.fa-discord{
+    color: rgb(90, 90, 187);
+}
 /* footer */
 
 /* media query for phone users, need more update as we go */ 
