@@ -162,7 +162,7 @@ header{
 
 
 #hero-image{
-    width: 850px;
+    width: 700px;
     height: 100%;
     object-fit: cover;
     padding: 30px;
@@ -195,12 +195,12 @@ header{
     margin-left: 3rem;
     font-size: 1.5rem;
 }
-#join-button{
+.join-button{
     background: lightcoral;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: 150px;
     height: 50px;
     margin: 50px auto;
     text-align: center;
@@ -208,34 +208,30 @@ header{
     font-family: sans-serif;
     font-size: 1rem;
     border-radius: 5px;
-    min-width: 100px;
-    min-height: 50px;
     text-decoration: none;
 }
-#join-button:hover{
+.join-button:hover{
     background-color:rgb(119, 150, 177);
     cursor: pointer;
 }
-
-#benefit-of-chess{
-    width: 100%;
-    height: auto;
-}
-#benefit-of-chess img{
-    height: auto;
-}
-
-#benefit-of-chess > h1{
-    font-family: sans-serif;
-    width: 100%;
-    height: 10%;
-    font-size: 3.5em;
-    letter-spacing: 4px;
+.tournament-description{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: #ed786a;
-    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-    margin: 0;
+}
+.tournament-description h1{
+    font-size: 2.5rem;
     font-weight: normal;
+}
+.tournament-description > div > span{
+    letter-spacing: 3px;
+}
+#chessclub-img{
+    margin: 5rem;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
 }
 .center{
     text-align: center;
@@ -307,7 +303,7 @@ footer a:hover{
 /* footer Code */
 
 /* media query for phone users, need more update as we go */ 
-@media (max-width: 1500px){
+@media (max-width: 1050px){
     #navbar > .nav-list > a{
         font-size: 20px;
         margin-right: 0rem;
@@ -365,9 +361,18 @@ footer a:hover{
     }
     #hero-title{
         text-align: center;
+        line-height: 3.2rem;
     }
     #hero-description p{
         margin: 0 auto !important;
+    }
+    .tournament-description{
+        flex-direction: column-reverse;
+    }
+    #chessclub-img{
+        margin: 2rem !important;
+        width: 430px;
+        height: 100%;
     }
 }
 
