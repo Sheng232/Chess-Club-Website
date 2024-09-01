@@ -158,6 +158,17 @@ main{
 /* Navbar */
 
 /* Main */
+.title-section{
+    margin: 0;
+    padding: 30px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    width: 40%;
+}
+.title-section h1{
+    margin: 0;
+    
+}
 .event{
     display: flex;
     flex-direction: row;
