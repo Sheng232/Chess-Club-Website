@@ -170,6 +170,7 @@ main{
 }
 .event-description{
     width: 50%;
+    line-height: 40px;
 }
 .event p{
     width: 100%;

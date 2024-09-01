@@ -185,6 +185,7 @@ header{
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    line-height: 40px;
 }
 #hero-description > p{
     display: flex;

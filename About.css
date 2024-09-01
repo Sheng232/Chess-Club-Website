@@ -168,6 +168,7 @@ main{
     justify-content: space-evenly;
     margin-bottom: 20px;
     font-family: sans-serif;
+    line-height: 30px;
 }
 .Our-Story{
     width: 100%;
@@ -178,6 +179,7 @@ main{
     justify-content: space-evenly;
     margin-bottom: 3rem;
     font-family: sans-serif;
+    line-height: 30px;
 }
 .Our-Story-Description{
     width: 50%;
@@ -387,7 +389,8 @@ footer a:hover{
     }
     .Our-Story{
         flex-direction: column-reverse;
-        text-align: center;
+        padding-left: 1.4rem;
+
     }
     .hamburger-menu{
         --foreground: #333;
@@ -397,7 +400,7 @@ footer a:hover{
         width: 80%;
         margin: 0;
         padding: 0;
-        text-align: center;
+        padding-left: 1.4rem;
     }
     .Our-Story-Description{
         width: 80%;
