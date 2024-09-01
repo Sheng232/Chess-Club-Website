@@ -343,6 +343,7 @@ footer a:hover{
         height: 100%;
         object-fit: cover;
         padding: 30px;
+        
     }
     .sidebar {
         width: 250px;
