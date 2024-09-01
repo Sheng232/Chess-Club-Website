@@ -175,11 +175,9 @@ header{
 }
 #hero-title{
     width: 60%;
-    padding: 30px;
     font-family: sans-serif;
     font-size: 3.5rem;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-    margin-left: 30px;
     line-height: 5rem;
 }
 #hero-description{
@@ -194,7 +192,6 @@ header{
     display: flex;
     justify-content: center;
     width: 90%;
-    margin-left: 3rem;
     font-size: 1.5rem;
 }
 .join-button{
