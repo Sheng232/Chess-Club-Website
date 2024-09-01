@@ -381,14 +381,15 @@ footer a:hover{
     }
     .event-description{
         width: 100%;
+        margin: 0.5rem;
     }
     #first-event{
-        width: 100%;
-        padding-right: 10px;
+        width: 95%;
+        margin: 1rem 0 0 0 !important;
     }
     #second-event{
-        width: 100%;
-        padding-right: 10px;
+        width: 95%;
+        margin: 1rem 0 0 0 !important;
     }
     .tournament-title{
         text-align: center;

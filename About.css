@@ -184,6 +184,7 @@ main{
 .Our-Story-Description{
     width: 50%;
     height: auto;
+    margin: 2rem;
     padding: 2rem;
     background: rgb(209, 200, 200);
     box-shadow: 5px 5px 5px black;
@@ -202,10 +203,10 @@ main{
 .Our-Goals-Description{
     width: 50%;
     height: auto;
-    padding: 2rem;
     background: rgb(209, 200, 200);
     box-shadow: 5px 5px 5px black;
     margin: 2rem;
+    padding: 2rem;
 }
 .Our-Goals-Description > h3{
     text-align: center;
@@ -401,8 +402,6 @@ footer a:hover{
     }
     .Our-Story{
         flex-direction: column-reverse;
-        padding-left: 1.4rem;
-
     }
     .Our-Goals{
         margin-top: 3rem;
@@ -412,13 +411,11 @@ footer a:hover{
         --background: #333;
     }
     .Our-Goals-Description{
-        width: 80%;
-        margin: 0;
-        padding: 0;
-        padding-left: 1.4rem;
+        width: 90%; 
     }
     .Our-Story-Description{
-        width: 80%;
+        width: 90%;
+        padding-left: 1.4rem;
     }
     .officers{
         text-align: center;
