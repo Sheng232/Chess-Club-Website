@@ -195,7 +195,7 @@ main{
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 }
 .Contact-title p{
-    width: 80%;
+    width: 50%;
     color: black !important;
 }
 #hero-description{
@@ -415,6 +415,9 @@ footer a:hover{
     form{
         margin: 0 auto;
         min-width: 400px;
+    }
+    .Contact-title p{
+        width: 80%;
     }
 }
 
