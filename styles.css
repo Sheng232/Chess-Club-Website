@@ -316,6 +316,12 @@ footer a:hover{
         font-size: 20px;
         margin-right: 0rem;
     }
+    .hamburger-menu:has(input:checked) + .sidebar{
+        translate: 0%;
+    }
+    .sidebar{
+        translate: -100%;
+    }
     .hero{
         flex-direction: column;
     }
