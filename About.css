@@ -184,10 +184,13 @@ main{
 .Our-Story-Description{
     width: 50%;
     height: auto;
+    padding: 2rem;
+    background: rgb(209, 200, 200);
+    box-shadow: 5px 5px 5px black;
 }
 .Our-Story-Description h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 2.3rem;
     font-family: sans-serif;
     color: gray;
 }
@@ -199,10 +202,14 @@ main{
 .Our-Goals-Description{
     width: 50%;
     height: auto;
+    padding: 2rem;
+    background: rgb(209, 200, 200);
+    box-shadow: 5px 5px 5px black;
+    margin: 2rem;
 }
 .Our-Goals-Description > h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 2.3rem;;
     font-family: sans-serif;
     color: gray;
 }
@@ -210,7 +217,6 @@ main{
     letter-spacing: 2px;
     font-size: 20px;
 }
-
 
 #about-image{
     object-fit: cover;
@@ -230,9 +236,10 @@ main{
 }
 
 .team h2{
-    font-size: 30px;
+    font-size: 3rem;
     font-family: sans-serif;
     color: gray;
+    margin: 2rem 0 0 0;
 }
 .team > p{
     margin-left: 5rem; 
@@ -249,6 +256,7 @@ main{
     flex-direction: column;
     font-size: 1.5rem;
     align-items: center;
+    padding: 2rem;
 }
 .officers > li > h4{
     padding: 2px;
@@ -280,6 +288,10 @@ main{
     height: 300px;
 
 }
+.chess-room-img:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
 .place-holder-img{
     width: 15rem;
     height: 20rem;
