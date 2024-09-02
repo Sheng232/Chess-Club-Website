@@ -174,6 +174,8 @@ header{
     height: auto;
     display: flex;
     align-items: center;
+    /* background-image: url(Pictures/Countryside\ background.jpg); */
+    background: linear-gradient(-45deg, #f2f2f2 90%, lightcoral 10%);
 }
 #hero-title{
     width: 60%;
@@ -203,7 +205,7 @@ header{
     justify-content: center;
     width: 150px;
     height: 50px;
-    margin: 50px;
+    margin-top: 2rem;
     text-align: center;
     color: #f2f2f2;
     font-family: sans-serif;
