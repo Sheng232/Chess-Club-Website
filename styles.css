@@ -164,10 +164,13 @@ main{
 #hero-image{
     width: 700px;
     height: 100%;
-    object-fit: cover;
     padding: 30px;
     margin: 3rem;
-    border-radius: 50px;
+}
+#hero-image img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
 }
 .hero{
     width: 100%;
@@ -343,6 +346,7 @@ footer a:hover{
     }
     #hero-description p{
         padding: 1rem;
+        line-height: normal;
     }
     #hero-image{
         width: 100%;
