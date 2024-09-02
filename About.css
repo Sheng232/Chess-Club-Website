@@ -186,7 +186,7 @@ main{
     height: auto;
     margin: 2rem;
     padding: 2rem;
-    background: rgb(209, 200, 200);
+    background: rgb(235, 231, 231);
     box-shadow: 5px 5px 5px black;
 }
 .Our-Story-Description h3{
@@ -203,7 +203,7 @@ main{
 .Our-Goals-Description{
     width: 50%;
     height: auto;
-    background: rgb(209, 200, 200);
+    background: rgb(235, 231, 231);
     box-shadow: 5px 5px 5px black;
     margin: 2rem;
     padding: 2rem;

@@ -166,6 +166,7 @@ header{
     height: 100%;
     object-fit: cover;
     padding: 30px;
+    margin: 3rem;
 }
 .hero{
     width: 100%;
@@ -221,7 +222,6 @@ header{
 }
 .tournament-description h1{
     font-size: 2.5rem;
-    font-weight: normal;
 }
 .tournament-description > div > span{
     letter-spacing: 3px;
