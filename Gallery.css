@@ -200,6 +200,7 @@ main{
     height: 500px;
     object-fit: cover;
     display: none;
+    padding: 1rem;
 }
 img.displaySlide{
     display: block;
