@@ -18,15 +18,14 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: sans-serif;
+}
+header{
+    font-family: sans-serif
 }
 main{
     flex: 1;
     width: 100%;
     height: auto;
-}
-header{
-    font-family: sans-serif;
 }
 /* Navbar */
 /* Hamburger */
@@ -168,6 +167,7 @@ header{
     object-fit: cover;
     padding: 30px;
     margin: 3rem;
+    border-radius: 50px;
 }
 .hero{
     width: 100%;
@@ -188,9 +188,9 @@ header{
     width: 60%;
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
     line-height: 40px;
     margin-left: 6rem;
+    font-weight: 300;
 }
 #hero-description > p{
     display: flex;
