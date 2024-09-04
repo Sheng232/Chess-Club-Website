@@ -223,6 +223,9 @@ main{
     border-radius: 5px;
     text-decoration: none;
 }
+.join-form:hover{
+    background: rgb(119, 150, 177);
+}
 .circle{
     border-radius: 50%;
 }
