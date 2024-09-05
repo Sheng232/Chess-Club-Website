@@ -248,6 +248,12 @@ main{
 .tournament-description{
     width: 80%;
 }
+.tournament-description h3{
+    font-size: 1.5rem;
+}
+.tournament-description span{
+    font-size: 1.2rem;
+}
 .Registration{
     display: flex;
     flex-direction: column;
