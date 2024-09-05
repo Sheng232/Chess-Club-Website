@@ -186,7 +186,6 @@ main{
 }
 .event p{
     width: 100%;
-    letter-spacing: 2px;
     font-size: 1.2rem;
     margin: 2rem;
 }
