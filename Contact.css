@@ -202,7 +202,7 @@ main{
 }
 .Join h2, .Registration h2, .Discord h2, .Email h2, .Instagram h2{
     font-size: 1.5rem;
-    color: lightcoral;
+    /* color: lightcoral; */
 }
 .bubble{
     width: 50px;
@@ -292,6 +292,20 @@ p {
 .center{
     text-align: center;
 }
+
+.return-button{
+    margin: 30px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
 footer{
     background-color: rgb(179, 168, 168);
     width: 100%;
