@@ -161,6 +161,10 @@ main{
 }
 
 /* Navbar */
+.scribble{
+    width: 100%;
+    height: 50px;
+}
 .Our-Goals{
     width: 100%;
     height: auto;
