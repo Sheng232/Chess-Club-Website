@@ -236,9 +236,7 @@ main{
 .tournament-description h1{
     font-size: 2.5rem;
 }
-.tournament-description > div > span{
-    letter-spacing: 3px;
-}
+
 .tournament-description div{
     display: flex;
     flex-direction: column;
