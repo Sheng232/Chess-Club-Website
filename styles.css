@@ -327,6 +327,9 @@ footer a:hover{
         font-size: 20px;
         margin-right: 0rem;
     }
+    .left{
+        width: 100%;
+    }
     .hamburger-menu:has(input:checked) + .sidebar{
         translate: 0%;
     }
