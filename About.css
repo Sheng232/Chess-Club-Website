@@ -201,7 +201,7 @@ main{
     color: gray;
 }
 .Our-Story-Description > p{
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     font-size: 20px;
 }
 
@@ -220,7 +220,7 @@ main{
     color: gray;
 }
 .Our-Goals-Description > p{
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     font-size: 20px;
 }
 
