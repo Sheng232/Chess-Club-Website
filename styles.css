@@ -139,6 +139,7 @@ main{
     margin-top: 5px;
     width: 5rem;
     height: 5rem;
+    border-radius: 50%;
 }
 .logo > h1{
     padding: 10px;
@@ -169,6 +170,7 @@ main{
     height: 100%;
     padding: 30px;
     margin: 3rem;
+
 }
 #hero-image img{
     width: 100%;
@@ -248,6 +250,7 @@ main{
     width: 600px;
     height: 500px;
     object-fit: cover;
+    border-radius: 15px;
 }
 .center{
     text-align: center;

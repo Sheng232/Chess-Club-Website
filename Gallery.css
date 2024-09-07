@@ -137,6 +137,7 @@ main{
     margin-top: 5px;
     width: 5rem;
     height: 5rem;
+    border-radius: 50%;
 }
 .logo > h1{
     padding: 10px;
