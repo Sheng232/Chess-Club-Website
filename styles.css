@@ -183,7 +183,7 @@ main{
     display: flex;
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
-    background: linear-gradient(-45deg, #f2f2f2 90%, lightcoral 10%);
+    background: linear-gradient(-45deg, #dbdada 90%, lightcoral 10%);
 }
 #hero-title{
     width: 60%;
