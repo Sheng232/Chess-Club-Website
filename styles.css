@@ -47,6 +47,7 @@ main{
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input{
+    display: none;
     content: "";
     width: var(--bar-width);
     height: var(--bar-height);
@@ -322,6 +323,11 @@ footer a:hover{
 
 /* media query for phone users, need more update as we go */ 
 @media (max-width: 1050px){
+    .hamburger-menu::before,
+    .hamburger-menu::after,
+    .hamburger-menu input{
+        display: unset;
+    }
     #navbar > .nav-list > a{
         font-size: 20px;
         margin-right: 0rem;
