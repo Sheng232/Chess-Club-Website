@@ -180,7 +180,7 @@ main{
 }
 .hero{
     width: 100%;
-    height: calc(100vh-var(--height));
+    height: auto;
     display: flex;
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
