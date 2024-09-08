@@ -223,6 +223,9 @@ main{
     border-radius: 5px;
     text-decoration: none;
 }
+#tournament-join-button{
+    margin-top: 2rem;
+}
 .join-button:hover{
     background-color:rgb(119, 150, 177);
     cursor: pointer;
@@ -236,6 +239,7 @@ main{
 }
 .tournament-description h1{
     font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .tournament-description div{
