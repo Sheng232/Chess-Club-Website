@@ -174,8 +174,10 @@ main{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding: 5rem 5rem 0 5rem;
     font-family: sans-serif;
     line-height: 30px;
+    
 }
 .Our-Story{
     width: 100%;
@@ -185,45 +187,48 @@ main{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 3rem;
+    padding: 0 5rem 0 5rem;
     font-family: sans-serif;
     line-height: 30px;
 }
 .Our-Story-Description{
     width: 50%;
     height: auto;
-    margin: 2rem;
-    padding: 2rem;
-    background: rgb(235, 231, 231);
-    box-shadow: 5px 5px 5px black;
+    margin: 2rem 0 2rem 2rem;
+    padding: 2rem 0 2rem 2rem;
+    /* background: rgb(235, 231, 231);
+    box-shadow: 5px 5px 5px black; */
 }
 .Our-Story-Description h3{
     text-align: center;
     font-size: 2.3rem;
     font-family: sans-serif;
-    color: gray;
+    color: rgb(17, 17, 17)
 }
 .Our-Story-Description > p{
     /* letter-spacing: 2px; */
     font-size: 20px;
+    color: rgb(56, 54, 54);
 }
 
 .Our-Goals-Description{
     width: 50%;
     height: auto;
-    background: rgb(235, 231, 231);
-    box-shadow: 5px 5px 5px black;
-    margin: 2rem;
-    padding: 2rem;
+    /* background: rgb(235, 231, 231);
+    box-shadow: 5px 5px 5px black; */
+    margin: 2rem 2rem 2rem 0;
+    padding: 2rem 2rem 2rem 0;
 }
 .Our-Goals-Description > h3{
     text-align: center;
     font-size: 2.3rem;;
     font-family: sans-serif;
-    color: gray;
+    color: rgb(17, 17, 17)
 }
 .Our-Goals-Description > p{
     /* letter-spacing: 2px; */
     font-size: 20px;
+    color: rgb(56, 54, 54);
 }
 
 #about-image{
@@ -390,6 +395,10 @@ footer a:hover{
     .Our-Goals{
         flex-direction: column;
         width: 100%;
+        padding: 0;
+    }
+    .Our-Story{
+        padding: 0;
     }
     .Our-Goals p, .Our-Story p{
         font-size: 16px;
@@ -433,11 +442,14 @@ footer a:hover{
     }
     .Our-Goals-Description{
         width: 90%; 
-        
+        margin: 0 2rem 0 2rem;
+        padding: 0 2rem 0 2rem;
     }
     .Our-Story-Description{
         width: 90%;
-        padding-left: 1.4rem;
+        margin: 0 2rem 0 2rem;
+        padding: 0 2rem 0 2rem;
+
     }
     .officers{
         text-align: center;

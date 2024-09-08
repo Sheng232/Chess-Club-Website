@@ -184,7 +184,7 @@ main{
     display: flex;
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
-    background: linear-gradient(-45deg, #dbdada 90%, lightcoral 10%);
+    background: linear-gradient(-45deg, #dbdada 90%, rgb(24, 22, 22) 10%);
 }
 #hero-title{
     width: 60%;
@@ -230,23 +230,26 @@ main{
     background-color:rgb(119, 150, 177);
     cursor: pointer;
 }
-.tournament-description{
+.tournament-description, .about-us{
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: sans-serif;
 }
-.tournament-description h1{
+.tournament-description h1, .about-us h1{
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.tournament-description div{
+.tournament-description div, .about-us div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.about-us{
+    flex-direction: row-reverse
 }
 #chessclub-img{
     margin: 5rem;
@@ -420,13 +423,13 @@ footer a:hover{
     #hero-description p{
         margin: 0 !important;
     }
-    .tournament-description{
+    .tournament-description, .about-us{
         flex-direction: column;
     }
-    .tournament-description h1{
+    .tournament-description h1, .about-us h1{
         margin: 0;
     }
-    .tournament-description span{
+    .tournament-description span, .about-us span{
         padding: 0.5rem;
     }
     #chessclub-img{
