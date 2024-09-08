@@ -184,7 +184,7 @@ main{
     display: flex;
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
-    background: linear-gradient(-45deg, #dbdada 90%, rgb(24, 22, 22) 10%);
+    background:#dbdada;
 }
 #hero-title{
     width: 60%;
