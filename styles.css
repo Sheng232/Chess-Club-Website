@@ -185,6 +185,7 @@ main{
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
     background:#dbdada;
+    padding-bottom: 12rem;
 }
 #hero-title{
     width: 60%;
