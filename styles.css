@@ -1,5 +1,5 @@
 :root{
-    --height: 15vh;
+    --height: 10vh;
     --bar-width: 60px;
     --bar-height: 8px;
     --hamburger-gap: 6px;
@@ -118,7 +118,7 @@ main{
     flex-direction: row;
 }
 .sidebar a{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding-top: 20px;
     padding-right: 5rem;
     display: flex;
@@ -144,7 +144,7 @@ main{
 }
 .logo > h1{
     padding: 10px;
-    font-size: 35px;
+    font-size: 1.5rem;
 }
 .logo{
     width: 20%;
@@ -341,6 +341,9 @@ footer a:hover{
     }
     .left{
         width: 100%;
+    }
+    .sidebar a{
+        font-size: 1.5rem;
     }
     .hamburger-menu:has(input:checked) + .sidebar{
         translate: 0%;
