@@ -184,7 +184,7 @@ main{
     display: flex;
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
-    background:#dbdada;
+    background:linear-gradient(180deg, #dbdada 85%, #f2f2f2 100%);
     padding-bottom: 2rem;
 }
 #hero-title{
