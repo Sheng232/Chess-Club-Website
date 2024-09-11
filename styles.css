@@ -136,6 +136,13 @@ main{
 .sidebar a:hover{
     color: lightblue !important;
 }
+.left{
+    position: relative;
+}
+.chess-club-img:first-of-type{
+    position: absolute;
+    left: 10%;
+}
 .chess-club-img{
     margin-top: 5px;
     width: 5rem;
@@ -165,7 +172,31 @@ main{
     width: 100%;
     height: 50px;
 }
-
+.full-height{
+    height: 400px;
+}
+.hero-background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#hero-background-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    line-height: 5rem;
+    color: white;
+    margin: 0;
+}
+#hero-background-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 #hero-image{
     width: 700px;
     height: 100%;
@@ -339,6 +370,11 @@ footer a:hover{
     #navbar > .nav-list > a{
         font-size: 20px;
         margin-right: 0rem;
+    }
+    #hero-background-title{
+        font-size: 3rem;
+        line-height: normal;
+        text-align: center;
     }
     .left{
         width: 100%;

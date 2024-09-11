@@ -140,6 +140,13 @@ main{
     height: 5rem;
     border-radius: 50%;
 }
+.left{
+    position: relative;
+}
+.chess-club-img:first-of-type{
+    position: absolute;
+    left: 10%;
+}
 .logo > h1{
     padding: 10px;
     font-size: 1.5rem;
