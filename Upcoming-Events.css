@@ -406,20 +406,24 @@ footer a:hover{
         align-items: start;
     }
     .event img{
-        width: 245px;
+        width: 80%;
     }
     
     .event-description{
         width: 100%;
         margin: 0.5rem;
+        padding: 1rem;
+        text-align: center;
     }
     #first-event{
         width: 95%;
         margin: 1rem 0 0 0 !important;
+        flex-direction: column;
     }
     #second-event{
         width: 95%;
         margin: 1rem 0 0 0 !important;
+        flex-direction: column;
     }
     .tournament-title{
         text-align: center;
