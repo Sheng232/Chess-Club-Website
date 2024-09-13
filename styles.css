@@ -20,7 +20,7 @@ body{
     margin: 0;
 }
 header{
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 main{
     flex: 1;
@@ -238,7 +238,7 @@ main{
     display: flex;
     justify-content: center;
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .join-button{
     background: lightcoral;
@@ -477,7 +477,6 @@ footer a:hover{
         /* width: 430px; */
         height: 100%;
     }
-    
 }
 
 
