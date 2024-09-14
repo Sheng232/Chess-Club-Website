@@ -215,7 +215,7 @@ main{
     display: flex;
     align-items: center;
     /* background-image: url(Pictures/Countryside\ background.jpg); */
-    background:linear-gradient(180deg, #dbdada 85%, #f2f2f2 100%);
+    background: white;
     padding-bottom: 2rem;
 }
 .poppins-regular {
