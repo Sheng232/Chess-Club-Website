@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background: #f2f2f2;
+    background: #ffffff;
     font-family: sans-serif;
 }
 header{
@@ -169,7 +169,7 @@ main{
 
 /* Main Code */
 .title-section{
-    background: #f2f2f2;
+    background: #ffffff;
     height: auto;
 }
 .title-section h1{
