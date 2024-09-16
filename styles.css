@@ -214,8 +214,10 @@ main{
     height: auto;
     display: flex;
     align-items: center;
-    /* background-image: url(Pictures/Countryside\ background.jpg); */
-    background: white;
+    /* background-image: url(Pictures/Hero\ Background.jpg);
+    background-size: 100% 100%;
+    object-fit: cover; */
+    /* background: white; */
     padding-bottom: 2rem;
 }
 .poppins-regular {
@@ -393,11 +395,13 @@ footer a:hover{
     }
     .hero{
         flex-direction: column;
+        align-items: center;
     }
     #hero-title{
         margin: 0 !important;
-        text-align: left !important;
+        text-align: center !important;
         padding: 1rem;
+        width: 100%;
     }
     #chessclub-img{
         width: 100%;
@@ -409,8 +413,11 @@ footer a:hover{
     #hero-description{
         width: auto;
         margin: 1rem !important;
+        display: flex;
+        align-items: center;
     }
     #hero-description p{
+        width: 100%;
         padding: 1rem;
         line-height: normal;
     }
